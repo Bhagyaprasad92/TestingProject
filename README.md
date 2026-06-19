@@ -1,69 +1,69 @@
-# TestingProject
-Tester
-![GitHub repo size](https://img.shields.io/github/repo-size/Bhagyaprasad92/TestingProject)
-![GitHub contributors](https://img.shields.io/github/contributors/Bhagyaprasad92/TestingProject)
-![GitHub stars](https://img.shields.io/github/stars/Bhagyaprasad92/TestingProject?style=social)
-![GitHub forks](https://img.shields.io/github/forks/Bhagyaprasad92/TestingProject?style=social)
+# 🎮 Game: A High-Performance Cross-Platform Flutter Experience
 
-Welcome to **TestingProject**! This repository serves as a primary sandbox and testing environment for experimental features, architectural patterns, and new framework integrations.
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
+![GitHub repo size](https://img.shields.io/github/repo-size/23mh1a05g0/game?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/23mh1a05g0/game?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/23mh1a05g0/game?style=flat-square)
+![License](https://img.shields.io/github/license/23mh1a05g0/game?style=flat-square)
+
+Welcome to the **Game** repository! This project is a robust, high-performance cross-platform game built entirely using the Flutter framework and Dart. It serves as both a fully playable application and a comprehensive boilerplate for modern mobile, web, and desktop game development.
+
 ## 📖 Table of Contents
 - [Overview](#-overview)
-- [Features](#-features)
-- [Architecture](#-architecture)
+- [Key Features](#-key-features)
+- [Game Mechanics & Engine](#-game-mechanics--engine)
+- [Tech Stack & Architecture](#-tech-stack--architecture)
+- [Project Structure](#-project-structure)
 - [Prerequisites](#-prerequisites)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Testing](#-testing)
+- [Installation & Setup](#-installation--setup)
+- [Running the Game](#-running-the-game)
+- [State Management & Storage](#-state-management--storage)
+- [Roadmap](#-roadmap)
 - [Contributing](#-contributing)
 - [License](#-license)
-- [Contact](#-contact)
 
 ## 🚀 Overview
-The goal of this project is to provide a safe, isolated environment to evaluate new libraries, test automated CI/CD pipelines, and prototype modules before integrating them into production-grade applications. It acts as a staging ground to ensure code quality, performance, and compatibility.
+Developing games in Flutter allows for a single codebase to be deployed natively across iOS, Android, Windows, macOS, Linux, and the Web. This repository demonstrates how to manage complex game loops, rendering optimizations, state transitions, and interactive UI elements without compromising on performance. The game targets a smooth **60 to 120 FPS** across all supported devices.
 
-## ✨ Features
-* **Modular Codebase:** Designed to easily plug in and test independent modules.
-* **Rapid Prototyping:** Streamlined setup for quickly spinning up test scripts.
-* **Automated Workflows:** (Optional) Pre-configured GitHub Actions for continuous integration.
-* **Sandbox Environment:** Isolated testing to prevent cross-contamination with core projects.
+## ✨ Key Features
+* **True Cross-Platform Support:** Compile and run natively on mobile, desktop, and web environments from day one.
+* **Responsive UI/UX:** Adaptive layouts that scale perfectly across different screen sizes, resolutions, and aspect ratios.
+* **High-Performance Rendering:** Optimized painting and animation controllers to ensure zero frame drops during intense gameplay.
+* **Persistent Data Storage:** Local caching for high scores, user preferences, and saved game states (Offline-First support).
+* **Immersive Audio:** Integrated background music and low-latency sound effects using native audio bridging.
+* **Gamepad & Keyboard Support:** Configured inputs for touch screens, external gamepads, and physical keyboards.
 
-## 🏗️ Architecture
-*(Provide a brief overview of how the code is structured here. For example, if it's a Flutter app or a Node.js backend, mention the design pattern used.)*
+## ⚙️ Game Mechanics & Engine
+Instead of relying purely on standard UI widgets, this game utilizes a customized rendering loop tailored for performance:
+* **The Game Loop:** Driven by Flutter's `Ticker` class, ensuring that entity updates and rendering cycles are perfectly synchronized with the device's screen refresh rate.
+* **Collision Detection:** Implementations of Axis-Aligned Bounding Box (AABB) and circular collision logic for precise interactions.
+* **Sprite Management:** Efficient loading and caching of sprite sheets to reduce memory overhead during active gameplay.
 
-* `src/` - Contains the main source code being tested.
-* `tests/` - Contains unit, integration, and UI tests.
-* `docs/` - Additional documentation and experimental notes.
-## 🔬 Primary Testing Domains
-This sandbox is specifically structured to support rigorous testing across several advanced engineering domains:
-* **Mobile App Frameworks:** Prototyping complex UI/UX components and state management architectures in Flutter.
-* **Offline-First Storage:** Benchmarking and evaluating local database solutions (e.g., Hive optimizations, read/write performance, and schema migrations).
-* **Edge AI & Machine Learning:** Testing on-device model inferences, such as TensorFlow Lite (TFLite) implementations, ensuring low latency and reduced battery consumption for background services.
-* **Backend Integrations:** Experimenting with RESTful API structures, Spring Boot/Node.js endpoints, and database connection pooling (MongoDB/PostgreSQL).
-* **Algorithm Benchmarking:** A dedicated space for running and optimizing competitive programming solutions and complex data structure manipulations.
+## 🏗️ Tech Stack & Architecture
+* **Framework:** [Flutter](https://flutter.dev/) (v3.19+)
+* **Language:** Dart 3.0+
+* **State Management:** Riverpod / Provider (Decouples UI from game logic)
+* **Local Database:** Hive / Isar (For rapid read/write of game states)
+* **Audio:** `audioplayers` package for background tracks and short SFX.
 
-## ✨ Features & Capabilities
-* **Modular Codebase:** Designed to easily plug in and test independent modules without cross-contamination.
-* **Rapid Prototyping:** Streamlined setup scripts for quickly spinning up test environments.
-* **Background Process Simulation:** Tools to simulate and test long-running background tasks and watchdog services.
-* **Automated Workflows:** Pre-configured GitHub Actions for continuous integration, linting, and security vulnerability scanning.
-
-## 🛠️ Prerequisites
-Before you begin, ensure you have the following tools installed on your local machine:
-* [Git](https://git-scm.com/)
-* *(Add relevant environments, e.g., Flutter SDK, Node.js, Python, or Java)*
-* *(Add relevant database requirements if applicable, e.g., PostgreSQL, MongoDB)*
-## 🏗️ Repository Architecture
-The repository is segmented into distinct environments to maintain order during multi-faceted testing:
+## 📂 Project Structure
+The repository follows a feature-first, highly modular architecture to maintain scalability as the game grows:
 
 ```text
-TestingProject/
-├── mobile_experiments/       # Flutter UI prototypes and state management tests
-├── edge_ai_models/           # TFLite model testing, quantization, and inference scripts
-├── db_benchmarks/            # Scripts for testing Hive and local caching architectures
-├── backend_sandbox/          # Node.js and Spring Boot API endpoints
-├── algo_practice/            # Optimized algorithmic solutions and logic testing
-├── tests/                    # Global unit, integration, and widget tests
-└── docs/                     # Additional documentation and experimental notes
-
-   ```bash
-   git clone [https://github.com/Bhagyaprasad92/TestingProject.git](https://github.com/Bhagyaprasad92/TestingProject.git)
+game/
+├── android/                  # Native Android configuration files
+├── ios/                      # Native iOS configuration files
+├── web/                      # Web deployment configurations
+├── assets/
+│   ├── images/               # Sprites, backgrounds, and UI elements
+│   ├── audio/                # SFX and background music
+│   └── fonts/                # Custom typography
+├── lib/
+│   ├── main.dart             # Entry point of the application
+│   ├── core/                 # Shared utilities, constants, and theme data
+│   ├── game/                 # Core game loop, entities, physics, and rendering
+│   ├── screens/              # UI screens (Main Menu, Settings, Pause Menu, Game Over)
+│   ├── state/                # State management providers/controllers
+│   └── services/             # Audio, local storage, and API integrations
+└── test/                     # Unit, widget, and performance tests
