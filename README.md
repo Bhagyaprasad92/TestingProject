@@ -49,7 +49,6 @@ Instead of relying purely on standard UI widgets, this game utilizes a customize
 
 ## 📂 Project Structure
 The repository follows a feature-first, highly modular architecture to maintain scalability as the game grows:
-
 ```text
 game/
 ├── android/                  # Native Android configuration files
