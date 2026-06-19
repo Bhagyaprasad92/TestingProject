@@ -33,6 +33,20 @@ The goal of this project is to provide a safe, isolated environment to evaluate 
 * `src/` - Contains the main source code being tested.
 * `tests/` - Contains unit, integration, and UI tests.
 * `docs/` - Additional documentation and experimental notes.
+## 🔬 Primary Testing Domains
+This sandbox is specifically structured to support rigorous testing across several advanced engineering domains:
+
+* **Mobile App Frameworks:** Prototyping complex UI/UX components and state management architectures in Flutter.
+* **Offline-First Storage:** Benchmarking and evaluating local database solutions (e.g., Hive optimizations, read/write performance, and schema migrations).
+* **Edge AI & Machine Learning:** Testing on-device model inferences, such as TensorFlow Lite (TFLite) implementations, ensuring low latency and reduced battery consumption for background services.
+* **Backend Integrations:** Experimenting with RESTful API structures, Spring Boot/Node.js endpoints, and database connection pooling (MongoDB/PostgreSQL).
+* **Algorithm Benchmarking:** A dedicated space for running and optimizing competitive programming solutions and complex data structure manipulations.
+
+## ✨ Features & Capabilities
+* **Modular Codebase:** Designed to easily plug in and test independent modules without cross-contamination.
+* **Rapid Prototyping:** Streamlined setup scripts for quickly spinning up test environments.
+* **Background Process Simulation:** Tools to simulate and test long-running background tasks and watchdog services.
+* **Automated Workflows:** Pre-configured GitHub Actions for continuous integration, linting, and security vulnerability scanning.
 
 ## 🛠️ Prerequisites
 Before you begin, ensure you have the following tools installed on your local machine:
