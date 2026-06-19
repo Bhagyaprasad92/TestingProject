@@ -54,8 +54,18 @@ Before you begin, ensure you have the following tools installed on your local ma
 * *(Add relevant environments, e.g., Flutter SDK, Node.js, Python, or Java)*
 * *(Add relevant database requirements if applicable, e.g., PostgreSQL, MongoDB)*
 
-## 💻 Installation
+## 🏗️ Repository Architecture
+The repository is segmented into distinct environments to maintain order during multi-faceted testing:
 
-1. **Clone the repository:**
+```text
+TestingProject/
+├── mobile_experiments/       # Flutter UI prototypes and state management tests
+├── edge_ai_models/           # TFLite model testing, quantization, and inference scripts
+├── db_benchmarks/            # Scripts for testing Hive and local caching architectures
+├── backend_sandbox/          # Node.js and Spring Boot API endpoints
+├── algo_practice/            # Optimized algorithmic solutions and logic testing
+├── tests/                    # Global unit, integration, and widget tests
+└── docs/                     # Additional documentation and experimental notes
+
    ```bash
    git clone [https://github.com/Bhagyaprasad92/TestingProject.git](https://github.com/Bhagyaprasad92/TestingProject.git)
