@@ -52,7 +52,6 @@ Before you begin, ensure you have the following tools installed on your local ma
 * [Git](https://git-scm.com/)
 * *(Add relevant environments, e.g., Flutter SDK, Node.js, Python, or Java)*
 * *(Add relevant database requirements if applicable, e.g., PostgreSQL, MongoDB)*
-Heart On Your Sleeve	React with a ❤️ emoji
 ## 🏗️ Repository Architecture
 The repository is segmented into distinct environments to maintain order during multi-faceted testing:
 
