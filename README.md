@@ -1,7 +1,6 @@
 # 🎮 Game: A High-Performance Cross-Platform Flutter Experience
 
 ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
 ![GitHub repo size](https://img.shields.io/github/repo-size/23mh1a05g0/game?style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/23mh1a05g0/game?style=flat-square)
 ![GitHub issues](https://img.shields.io/github/issues/23mh1a05g0/game?style=flat-square)
