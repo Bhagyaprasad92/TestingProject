@@ -8,6 +8,7 @@
 
 Welcome to the **Game** repository! This project is a robust, high-performance cross-platform game built entirely using the Flutter framework and Dart. It serves as both a fully playable application and a comprehensive boilerplate for modern mobile, web, and desktop game development.
 
+
 ## 📖 Table of Contents
 - [Overview](#-overview)
 - [Key Features](#-key-features)
