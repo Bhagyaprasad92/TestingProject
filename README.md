@@ -11,8 +11,6 @@
 - [Game Mechanics & Engine](#-game-mechanics--engine)
 - [Tech Stack & Architecture](#-tech-stack--architecture)
 - [State Management & Storage](#-state-management--storage)
-- [Roadmap](#-roadmap)
-- [Contributing](#-contributing)
 - [License](#-license)
 
 ## 🚀 Overview
