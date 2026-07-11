@@ -46,7 +46,6 @@ Instead of relying purely on standard UI widgets, this game utilizes a customize
 * **Local Database:** Hive / Isar (For rapid read/write of game states)
 * **Audio:** `audioplayers` package for background tracks and short SFX.
 
-
 ## 📂 Project Structure
 The repository follows a feature-first, highly modular architecture to maintain scalability as the game grows:
 ```text
