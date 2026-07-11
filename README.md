@@ -6,10 +6,8 @@
 ![GitHub issues](https://img.shields.io/github/issues/23mh1a05g0/game?style=flat-square)
 ![License](https://img.shields.io/github/license/23mh1a05g0/game?style=flat-square)
 
-
 ## 📖 Table of Contents
 - [Overview](#-overview)
-- [Key Features](#-key-features)
 - [Game Mechanics & Engine](#-game-mechanics--engine)
 - [Tech Stack & Architecture](#-tech-stack--architecture)
 - [Project Structure](#-project-structure)
