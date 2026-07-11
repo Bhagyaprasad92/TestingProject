@@ -9,7 +9,6 @@
 
 ## 📖 Table of Contents
 - [Overview](#-overview)
-- [Key Features](#-key-features)
 - [Game Mechanics & Engine](#-game-mechanics--engine)
 - [Tech Stack & Architecture](#-tech-stack--architecture)
 - [Project Structure](#-project-structure)
